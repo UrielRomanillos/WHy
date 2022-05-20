@@ -1,0 +1,92 @@
+<html>
+<head>
+<style>
+.dropbutton {
+  background-color: #FFB6C1;
+  color: #000000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFEFD5;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:  #red}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #red;
+}
+</style>
+</head>
+<body>
+<h1>EXER3-4</h1>
+<div class="dropdown">
+  <button class="dropbutton">Global Warming</button>
+  <div class="dropdown-content">
+  <a href="#">Pollution</a>
+  <a href="#">Melting Ice Caps</a>
+  <a href="#">Habitats Displaced</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">Devices</button>
+  <div class="dropdown-content">
+  <a href="#">Tablets</a>
+  <a href="#">Phones</a>
+  <a href="#">Computers</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">Stars</button>
+  <div class="dropdown-content">
+  <a href="#">Red Giant</a>
+  <a href="#">White Dwarfs</a>
+  <a href="#">Blue Stars</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">Art</button>
+  <div class="dropdown-content">
+  <a href="#">Theatre</a>
+  <a href="#">Literature</a>
+  <a href="#">Painting</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbutton">Dance</button>
+  <div class="dropdown-content">
+  <a href="#">Interpretive Dance</a>
+  <a href="#">Ballet</a>
+  <a href="#">Hip Hop</a>
+  <a href="#">Waltz</a>
+  </div>
+</div>
+</body>
+</html>
